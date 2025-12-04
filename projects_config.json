@@ -1,0 +1,35 @@
+{
+    "projects": [
+        {
+            "name": "Phoenix",
+            "owner": "PriorityTechnologyHoldings",
+            "repo": "Phoenix",
+            "description": "Main Phoenix application",
+            "default_source_branch": "development",
+            "default_dest_branch": "developmenty-2.9.0",
+            "notes": "Common branches: development, development-2.9.0, main"
+        },
+        {
+            "name": "Phoenix-Internal",
+            "owner": "PriorityTechnologyHoldings",
+            "repo": "Phoenix-Internal",
+            "description": "Phoenix internal services",
+            "default_source_branch": "development",
+            "default_dest_branch": "master"
+        }
+    ],
+    "common_branch_patterns": {
+        "source_branches": [
+            "develop",
+            "staging",
+            "feature/latest",
+            "release/*"
+        ],
+        "dest_branches": [
+            "main",
+            "master",
+            "production",
+            "release"
+        ]
+    }
+}
